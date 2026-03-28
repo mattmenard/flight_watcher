@@ -15,7 +15,8 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 ## 🛠️ Hardware Requirements
 
 - [Adafruit Matrix Portal M4](https://www.adafruit.com/product/4745)
-- 64x32 RGB LED Matrix - [Adafruit](https://www.adafruit.com/product/2278) or [AliExpress](https://www.aliexpress.us/item/2251832064290423.html) (4mm pitch recommended)
+- 64x32 RGB LED Matrix Display - [Adafruit](https://www.adafruit.com/product/2278) or [AliExpress](https://www.aliexpress.us/item/2251832064290423.html) (4mm pitch recommended)
+- Acrylic Diffuser - [Adafruit](https://www.adafruit.com/product/4594) or [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4749/13426657) or 
 - 5V 4A (or higher) Power Supply
 
 ## 📚 Prerequisites
@@ -32,15 +33,19 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 
 ## ⚙️ Configuration
 
+### Initial Setup
+Follow the [Adafruit instructions](https://learn.adafruit.com/adafruit-matrixportal-m4/prep-the-matrixportal) to prep the Matrix Portal M4.
+
+### Personalization
 Create a `settings.toml` file in the root directory of your `CIRCUITPY` drive with the following variables:
 
 ```toml
 WIFI_SSID = "Your_WiFi_Name"
 WIFI_PASSWORD = "Your_WiFi_Password"
 # Your location as "Latitude, Longitude"
-LOCATION = "40.7128, -74.0060" 
-# Radius in miles to look for planes
-SEARCH_DISTANCE_MILES = "10"
+LOCATION = 40.7128, -74.0060
+# Radius in miles to look for planes and local weather. 3-miles is a good distance to locate aircraft and collect the data about them before they are overhead.
+SEARCH_DISTANCE_MILES = 3
 # Get a free API key at openweathermap.org
 OPENWEATHERMAP_API_KEY = "your_api_key_here"
 ```
