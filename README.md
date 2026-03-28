@@ -1,8 +1,4 @@
-This is a comprehensive `README.md` file designed for your project. It highlights the features, hardware requirements, and the specific configuration steps needed to get the script running on an Adafruit Matrix Portal M4.
-
----
-
-# Matrix Portal M4: Flight & Weather Tracker
+# Flight & Weather Tracker
 
 A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. This script tracks aircraft within a specific radius of your location using the FlightRadar24 API. When flights are detected, it displays detailed flight information along with a custom-colored airplane icon representing the airline's livery. If no flights are found after two check cycles, the display switches to show local weather conditions via the OpenWeatherMap API.
 
