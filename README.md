@@ -52,7 +52,7 @@ Create a `settings.toml` file in the root directory of your `CIRCUITPY` drive wi
 WIFI_SSID = "Your_WiFi_Name"
 WIFI_PASSWORD = "Your_WiFi_Password"
 # Your location as "Latitude, Longitude"
-LOCATION = `40.7128, -74.0060`
+LOCATION = 40.7128, -74.0060
 # Radius in miles to look for planes and local weather. 3-miles is a good distance to locate aircraft and collect the data about them before they are overhead.
 SEARCH_DISTANCE_MILES = 3
 # Get a free API key at openweathermap.org
