@@ -15,7 +15,7 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 ## 🛠️ Hardware Requirements
 
 - [Adafruit Matrix Portal M4](https://www.adafruit.com/product/4745)
-- [64x32 RGB LED Matrix](https://www.adafruit.com/product/2278) (4mm pitch recommended)
+- [64x32 RGB LED Matrix](https://www.adafruit.com/product/2278) or [AliExpress](https://www.aliexpress.us/item/2251832064290423.html) (4mm pitch recommended)
 - 5V 4A (or higher) Power Supply
 
 ## 📚 Prerequisites
