@@ -16,8 +16,8 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 
 - [Adafruit Matrix Portal M4](https://www.adafruit.com/product/4745)
 - 64x32 RGB LED Matrix Display - [Adafruit](https://www.adafruit.com/product/2278) or [AliExpress](https://www.aliexpress.us/item/2251832064290423.html) (4mm pitch recommended)
-- Acrylic Diffuser - [Adafruit](https://www.adafruit.com/product/4594) or [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4749/13426657) or 
-- 5V 4A (or higher) Power Supply
+- Acrylic Diffuser - [Adafruit](https://www.adafruit.com/product/4594) or [DigiKey](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4749/13426657) or other sources
+- 5V 1A (or higher) USB Power Supply
 
 ## 📚 Prerequisites
 
