@@ -66,6 +66,9 @@ OPENWEATHERMAP_API_KEY = "your_api_key_here"
 3. Ensure your `settings.toml` is configured correctly.
 4. The board will automatically restart and begin searching for flights.
 
+## 🪲 Debugging
+Connect the Matrix Portal to your computer using USB and use [Putty](https://putty.org/index.html) or similar to connect to the Matrix Portal. If using Windows, find the COM port the portal is on using the device manager (if you're using Linux, you know how to find the COM port the device is on 😁), and setup a serial connection in Putty to that port at 115200. The code has a ton of print statements that will print out helpful messages about errors, flights it sees, weather updates, etc.
+
 ## 🧠 Technical Notes (Memory Management)
 
 The SAMD51 processor on the Matrix Portal M4 has limited RAM (192KB). To ensure stability, this script uses several advanced techniques:
