@@ -7,10 +7,10 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 - **Real-time Flight Tracking**: Calculates a bounding box based on a mile-radius from your specific latitude/longitude.
 - **Detailed Flight Info**: Displays Flight Number, Airline Name, Origin/Destination (IATA codes and full names), Aircraft Model, and Registration.
 - **Dynamic Liveries**: The 24x24 pixel airplane icon changes colors to match the branding of over 20+ major airlines.
-- **Flight Status Indicator**: A color-coded dot indicates if a flight is on-time (green), delayed (yellow), or redirected (red).
+- **Flight Status Indicator**: A color-coded dot indicates if a flight is on-time (green), delayed <30-mins (yellow), or delayed >30-mins (red).
 - **Smart Weather Mode**: Automatically switches to local weather if the skies are empty.
-- **Weather Icons**: Custom-drawn icons for Sunny, Cloudy, Rainy, Snowy, and Thunderstorm conditions.
-- **Memory Optimized**: specifically tuned for the SAMD51 (M4) processor using JSON streaming, buffer truncation, and low-bit-depth display management to prevent `MemoryError` crashes.
+- **Weather Icons**: Custom-drawn icons for clear, sunny, cloudy, rainy, snowy, and thunderstorm conditions.
+- **Memory Optimized**: Specifically tuned for the SAMD51 (M4) processor using JSON streaming, buffer truncation, and low-bit-depth display management to prevent `MemoryError` crashes.
 
 ## 🛠️ Hardware Requirements
 
