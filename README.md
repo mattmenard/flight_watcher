@@ -22,14 +22,23 @@ A real-time aviation and meteorology display for the Adafruit Matrix Portal M4. 
 ## 📚 Prerequisites
 
 1. **CircuitPython 9.x**: Ensure your Matrix Portal is running the latest stable version of CircuitPython.
-2. **Library Bundle**: Download the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) and place the following folders/files in your `lib` folder:
-   - `adafruit_matrixportal`
-   - `adafruit_portalbase`
-   - `adafruit_esp32spi`
-   - `adafruit_requests.mpy`
-   - `adafruit_display_text`
-   - `adafruit_connection_manager`
-   - `neopixel.mpy`
+2. **Library Bundle**: Download the [Adafruit CircuitPython Library Bundle](https://circuitpython.org/libraries) and place the following folders/files in the `lib` folder on the Matrix Portal M4:
+   - 📁 `adafruit_bitmap_font`
+   - 📁 `adafruit_bus_device`
+   - 📁 `adafruit_display_text`
+   - 📁 `adafruit_esp32spi`
+   - 📁 `adafruit_imageload`
+   - 📁 `adafruit_io`
+   - 📁 `adafruit_matrixportal`
+   - 📁 `adafruit_minimqtt`
+   - 📁 `adafruit_portalbase`
+   - 📄 `adafruit_connection_manager.mpy`
+   - 📄 `adafruit_debouncer.mpy`
+   - 📄 `adafruit_fakerequests.mpy`
+   - 📄 `adafruit_lis3dh.mpy`
+   - 📄 `adafruit_requests.mpy`
+   - 📄 `adafruit_ticks.mpy`
+   - 📄 `neopixel.mpy`
 
 ## ⚙️ Configuration
 
