@@ -302,6 +302,9 @@ def plane_animation(airline_string):
     elif "AIR FORCE" in airline_string:
         # Blue / Grey / Blue
         colors = [0x205EA0, 0xF1F1F1, 0x205EA0]
+    elif "AIR FRANCE" in airline_string:
+        # Red / BLue / White
+        colors = [0x051040, 0xFF0000, 0xFFFFFF]
     elif "ARMY" in airline_string:
         # Gold / White / Green
         colors = [0xF9CB34, 0xFFFFFF, 0x697866]
