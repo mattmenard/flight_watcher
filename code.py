@@ -524,6 +524,19 @@ def draw_weather_icon(condition, is_day):
         weather_bmp[2,9]=weather_bmp[5,9]=weather_bmp[6,9]=weather_bmp[7,9]=weather_bmp[10,9]=4
         weather_bmp[4,10]=weather_bmp[6,10]=weather_bmp[8,10]=4
 
+    elif "mist" in cond:
+        weather_bmp[5,0]=weather_bmp[6,0]=weather_bmp[7,0]=2
+        weather_bmp[4,1]=weather_bmp[5,1]=weather_bmp[6,1]=weather_bmp[7,1]=weather_bmp[8,1]=2
+        weather_bmp[2,2]=weather_bmp[3,2]=weather_bmp[4,2]=weather_bmp[5,2]=weather_bmp[6,2]=weather_bmp[7,2]=weather_bmp[8,2]=weather_bmp[9,2]=2
+        weather_bmp[1,3]=weather_bmp[2,3]=weather_bmp[3,3]=weather_bmp[4,3]=weather_bmp[5,3]=weather_bmp[6,3]=weather_bmp[7,3]=weather_bmp[8,3]=weather_bmp[9,3]=weather_bmp[10,3]=2
+        weather_bmp[0,4]=weather_bmp[1,4]=weather_bmp[2,4]=weather_bmp[3,4]=weather_bmp[4,4]=weather_bmp[5,4]=weather_bmp[6,4]=weather_bmp[7,4]=weather_bmp[8,4]=weather_bmp[9,4]=weather_bmp[10,4]=weather_bmp[11,4]=2
+        weather_bmp[0,5]=weather_bmp[1,5]=weather_bmp[2,5]=weather_bmp[3,5]=weather_bmp[4,5]=weather_bmp[5,5]=weather_bmp[6,5]=weather_bmp[7,5]=weather_bmp[8,5]=weather_bmp[9,5]=weather_bmp[10,5]=weather_bmp[11,5]=2
+        weather_bmp[0,6]=weather_bmp[1,6]=weather_bmp[2,6]=weather_bmp[3,6]=weather_bmp[4,6]=weather_bmp[5,6]=weather_bmp[6,6]=weather_bmp[7,6]=weather_bmp[8,6]=weather_bmp[9,6]=weather_bmp[10,6]=weather_bmp[11,6]=2
+        weather_bmp[1,7]=weather_bmp[2,7]=weather_bmp[3,7]=weather_bmp[4,7]=weather_bmp[5,7]=weather_bmp[6,7]=weather_bmp[7,7]=weather_bmp[8,7]=weather_bmp[9,7]=weather_bmp[10,7]=2
+
+        weather_bmp[2,9]=weather_bmp[3,9]=weather_bmp[6,9]=weather_bmp[7,9]=weather_bmp[10,9]=weather_bmp[11,9]=2
+        weather_bmp[0,10]=weather_bmp[1,10]=weather_bmp[4,10]=weather_bmp[5,10]=weather_bmp[8,10]=weather_bmp[9,10]=3
+
     else: # Default Cloud
         for x in range(2, 10):
             for y in range(5, 9): weather_bmp[x, y] = 2
